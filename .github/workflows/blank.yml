@@ -32,4 +32,4 @@ jobs:
     - name: Create tsicl
       run: echo goto 1>>start.bat
     - name: Start Tunnel
-      run: start.bat
+      run: cmd /c "start.bat"
