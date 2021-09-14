@@ -28,7 +28,7 @@ jobs:
     - name: Create bat createi
       run: echo :1>start.bat
     - name: Create Tunnel in bat
-      run: ngrok.exe tcp 3389>>start.bat
+      run: echo ngrok.exe tcp 3389>>start.bat
     - name: Create tsicl
       run: echo goto 1>>start.bat
     - name: Start Tunnel
